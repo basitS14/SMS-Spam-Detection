@@ -2,3 +2,5 @@ streamlit
 nltk
 pandas
 scikit-learn
+nltk.download('stopwords')
+
