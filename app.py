@@ -5,9 +5,10 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-nltk.download('punkt')
 
 def text_transform(text):
+    nltk.download('punkt')
+
     text = text.lower()
     text = nltk.word_tokenize(text)
     
